@@ -2,80 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd7a433e-d4ea-4863-85b4-3272ab3c3d63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.ce7393b436b9cf50bb54ccbbf894618a.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts.scss/AlfaSlabOne.5e2c13b.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts.scss/Comfortaa.9b0d6f2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts.scss/Montserrat.f721352.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts.scss/Pacifico.b3c8a48.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts.scss/fontawesome-webfont.674f50d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts.scss/fontawesome-webfont.af7ae50.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts.scss/fontawesome-webfont.b06871f.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts.scss/fontawesome-webfont.fee66e7.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/images/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/gallery/thumbs/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/android-chrome-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/android-chrome-512x512.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/apple-touch-icon-120x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/apple-touch-icon-152x152.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/apple-touch-icon-180x180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/apple-touch-icon-60x60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/apple-touch-icon-76x76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/msapplication-icon-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/mstile-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/noscript/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/noscript/loading.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/noscript/plan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.b22aa8b433de54397f9c.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor.c9fe410b5a7a102d11bf.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/studimanual.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css.bundle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass.bundle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.ce7393b436b9cf50bb54ccbbf894618a.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.ce7393b436b9cf50bb54ccbbf894618a.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/fontawesome-webfont.912ec66.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/icons/safari-pinned-tab.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/pattern_black.338989a.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/pattern_blue.c174beb.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/pattern_green.a755294.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/pattern_orange.0958735.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/pattern_white.dc880a1.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.b22aa8b433de54397f9c.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.b22aa8b433de54397f9c.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/manifest.22d3aad947b4d7ebafcd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/manifest.22d3aad947b4d7ebafcd.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor.c9fe410b5a7a102d11bf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/vendor.c9fe410b5a7a102d11bf.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.57fb90fb8b5d3c92bd66d1b9f7ec14f9.css.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/app.57fb90fb8b5d3c92bd66d1b9f7ec14f9.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.ce7393b436b9cf50bb54ccbbf894618a.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.ce7393b436b9cf50bb54ccbbf894618a.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.ce7393b436b9cf50bb54ccbbf894618a.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.22d3aad947b4d7ebafcd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.22d3aad947b4d7ebafcd.js.map" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/app.ce7393b436b9cf50bb54ccbbf894618a.css.map" afterPath="$PROJECT_DIR$/static/css/app.57fb90fb8b5d3c92bd66d1b9f7ec14f9.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/manifest.22d3aad947b4d7ebafcd.js" afterPath="$PROJECT_DIR$/static/js/manifest.f4fe32af4d9cb8952a80.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/manifest.22d3aad947b4d7ebafcd.js.map" afterPath="$PROJECT_DIR$/static/js/manifest.f4fe32af4d9cb8952a80.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-worker.js" afterPath="$PROJECT_DIR$/service-worker.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -249,12 +188,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506983877253</updated>
-      <workItem from="1506983878756" duration="65000" />
+      <workItem from="1506983878756" duration="1139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65000" />
+    <option name="totallyTimeSpent" value="1139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />

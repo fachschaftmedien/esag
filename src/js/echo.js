@@ -26,11 +26,12 @@ function stripStartwords(string, words){
 function tellWhen(event){
   event = event.toLowerCase().trim();
   event = stripStartwords(event,['der','die','das','eine','ein']);
+  event = event.replace('statt','');
   let found = [];
   Object.keys(calendar).forEach(day => {
     let arr = calendar[day];
     found = found.concat(arr.filter(el => {
-      if(el.title.toLowerCase() === event){
+      if(el.title.toLowerCase().indexOf(event) >= 0 || event.indexOf(el.title.toLowerCase()) >= 0){
         el.day = day;
         return true;
       }
@@ -57,7 +58,7 @@ function tellWhere(event){
   let found = [];
   Object.keys(calendar).forEach(day => {
     let arr = calendar[day];
-    found = found.concat(arr.filter(el => el.title.toLowerCase() === event));
+    found = found.concat(arr.filter(el => el.title.toLowerCase().indexOf(event) || event.indexOf(el.title.toLowerCase())));
   });
   if(found.length > 0){
     speak(found[0].location);
@@ -241,6 +242,9 @@ export default {
     tellWhere(event);
   },
   'wo ist *event (Vorstellung)': function(event){
+    tellWhere(event);
+  },
+  'in welchem Raum findet *event statt': function(event){
     tellWhere(event);
   },
   'was ist die Adresse der HSD': function(){

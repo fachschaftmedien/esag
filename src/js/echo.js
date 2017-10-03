@@ -13,6 +13,10 @@ function randomInt(min, max){
   return (Math.random() * ((max ? max : min) - (max ? min : 0) + 1) + (max ? min : 0)) | 0;
 }
 
+function partialOrCompleteContained(words, text){
+  return words.indexOf(text) >= 0 || text.indexOf(words) >= 0;
+}
+
 function stripStartwords(string, words){
   words.forEach(function(word){
     if(string.startsWith(word+' ')){
@@ -31,7 +35,7 @@ function tellWhen(event){
   Object.keys(calendar).forEach(day => {
     let arr = calendar[day];
     found = found.concat(arr.filter(el => {
-      if(el.title.toLowerCase().indexOf(event) >= 0 || event.indexOf(el.title.toLowerCase()) >= 0){
+      if(partialOrCompleteContained(el.title.toLowerCase(), event)){
         el.day = day;
         return true;
       }
@@ -58,7 +62,7 @@ function tellWhere(event){
   let found = [];
   Object.keys(calendar).forEach(day => {
     let arr = calendar[day];
-    found = found.concat(arr.filter(el => el.title.toLowerCase().indexOf(event) || event.indexOf(el.title.toLowerCase())));
+    found = found.concat(arr.filter(el => partialOrCompleteContained(el.title.toLowerCase(), event)));
   });
   if(found.length > 0){
     speak(found[0].location);

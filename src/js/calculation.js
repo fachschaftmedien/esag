@@ -17,6 +17,12 @@ const keywords = [
     from: 'exponenziert mit',
     to: '^'
   },{
+    from: 'ist',
+    to: '='
+  },{
+    from: 'gleich',
+    to: '='
+  },{
     from: 'grad',
     to: 'deg'
   },{

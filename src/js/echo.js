@@ -25,7 +25,7 @@ function stripStartwords(string, words){
 
 function tellWhen(event){
   event = event.toLowerCase().trim();
-  event = stripStartwords(event,['der','die','das']);
+  event = stripStartwords(event,['der','die','das','eine','ein']);
   let found = [];
   Object.keys(calendar).forEach(day => {
     let arr = calendar[day];
@@ -52,7 +52,7 @@ function tellWhen(event){
 
 function tellWhere(event){
   event = event.toLowerCase().trim();
-  event = stripStartwords(event,['der','die','das']);
+  event = stripStartwords(event,['der','die','das','ein','eine']);
   event = event.replace('statt','');
   let found = [];
   Object.keys(calendar).forEach(day => {
@@ -131,14 +131,15 @@ export default {
     notify(letters.toUpperCase());
   },
   'berechne *term': function(term){
-    let result = calculate(term)
+    term = stripStartwords(term, ['die','das'])
+    let result = calculate(term);
     speak(result);
     notify(result);
   },
-  'wann ist *event': function(event){
+  'wann ist *event (Vorstellung)': function(event){
     tellWhen(event);
   },
-  'wann finded *event statt': function(event){
+  'wann finded *event (Vorstellung) statt': function(event){
     tellWhen(event);
   },
   'was ist der Sinn des Lebens': function(){
@@ -148,12 +149,12 @@ export default {
     window.location.href = "https://www.youtube.com/watch?v=DLzxrzFCyOs";
   },
   'wie alt bist du': function(){
-    speak("Du fragst grade eine Webseite, wie alt sie ist...");
+    speak("Du fragst grade eine Webseite, wie alt sie ist... Ich habe kein Alter");
   },
   'wie heißt du': function () {
     speak("ESAG Punkt Fachschaft Medien Punkt DE");
   },
-  'übersetze *Satz in :sprache': function(satz, sprache){
+  'übersetze *Satz (in) (auf) :sprache': function(satz, sprache){
     let url = "https://translate.google.com/?hl=de#auto/"+sprache.substring(0,2).toLowerCase()+"/"+encodeURIComponent(satz);
     window.open(url,"_blank");
   },
@@ -241,6 +242,9 @@ export default {
   },
   'wo ist *event (Vorstellung)': function(event){
     tellWhere(event);
+  },
+  'was ist die Adresse der HSD': function(){
+    speak('Münsterstraße 156, 40476 Düsseldorf');
   },
   'wie geht es dir': function(){
     let options = ['Wubbalubbadubdub!','Meine Prozessoren glühen vor Freude!','Ich bin in einer Handyfertigungsfabrik gefangen, rettet mich!','Glücklichkeitslevel: Hoch'];

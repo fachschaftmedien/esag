@@ -1,0 +1,72 @@
+
+.page-header{
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: $main_blue;
+  background: url('./assets/pattern_blue.svg');
+  width: 100%;
+  height: 20em;
+  clip-path: polygon(27% 95%, 38% 88%, 59% 95%, 100% 87%, 100% 0, 0 0, 0 91%);
+  z-index: 5;
+
+  .headline-container{
+    width: 100%;
+    height: 100%;
+    flex-flow: column;
+
+    .title-container, .subheadline-container{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .title-container{
+      height: 50%;
+    }
+
+    .subheadline-container{
+      height: 30%;
+    }
+
+    .page-title{
+      box-shadow: 0 0 0 2px $white;
+      padding: 0.2em;
+      background: $white;
+      color: black;
+      border: solid black 5px;
+      mix-blend-mode: screen;
+      font-size: 300%;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+    }
+
+    .page-subheadline{
+      margin-top: 2em;
+      font-family: 'Pacifico', sans-serif;
+      font-size: 90%;
+      font-style: italic;
+      color: $white;
+    }
+
+    .page-title, .page-subheadline{
+      display: block;
+    }
+  }
+
+}
+
+@media (max-width: 900px){
+  .page-header{
+    height: 30vh;
+  }
+}
+
+@media (max-width: 600px){
+  .page-header>.headline-container>.title-container>.page-title{
+    width: 96%;
+    margin: 12% 2% 2%;
+    font-size: 2em;
+  }
+}

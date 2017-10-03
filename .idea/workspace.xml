@@ -2,18 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd7a433e-d4ea-4863-85b4-3272ab3c3d63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.fe54d31929d2ca9b60be.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.fe54d31929d2ca9b60be.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/app.fe54d31929d2ca9b60be.js.map" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.3b4ccedf9fdacbc55287.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.3b4ccedf9fdacbc55287.js.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.3b4ccedf9fdacbc55287.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.cd8820ca6c47bd75f83b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.cd8820ca6c47bd75f83b.js.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/manifest.cd8820ca6c47bd75f83b.js" afterPath="$PROJECT_DIR$/static/js/manifest.ad39595c423b8899a4f2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/manifest.cd8820ca6c47bd75f83b.js.map" afterPath="$PROJECT_DIR$/static/js/manifest.ad39595c423b8899a4f2.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/pattern_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/pattern_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/pattern_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/pattern_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/pattern_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/pattern_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fonts/fa/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.postcssrc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/postcss.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/pattern_red.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Calendar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CommandList.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Flipper.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Gallery.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/HamburgerButton.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Modal.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Notifications.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ScrollButton.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SpeechButton.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/calculation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/calendar.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/commands.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/echo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/images.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/jokes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/navigation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/notification.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/speech.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/weekday.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/_backgrounds.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/_colors.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/_fonts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/_header.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/_inputs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/_navigation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sass/fa/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/theme.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css.bundle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass.bundle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service-worker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.57fb90fb8b5d3c92bd66d1b9f7ec14f9.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.57fb90fb8b5d3c92bd66d1b9f7ec14f9.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/app.57fb90fb8b5d3c92bd66d1b9f7ec14f9.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.fe54d31929d2ca9b60be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.fe54d31929d2ca9b60be.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.fe54d31929d2ca9b60be.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.ad39595c423b8899a4f2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/manifest.ad39595c423b8899a4f2.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.c9fe410b5a7a102d11bf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.c9fe410b5a7a102d11bf.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/vendor.c9fe410b5a7a102d11bf.js.map" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts.scss/AlfaSlabOne.5e2c13b.ttf" afterPath="$PROJECT_DIR$/src/fonts/AlfaSlabOne.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts.scss/Comfortaa.9b0d6f2.ttf" afterPath="$PROJECT_DIR$/src/fonts/Comfortaa.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts.scss/Montserrat.f721352.ttf" afterPath="$PROJECT_DIR$/src/fonts/Montserrat.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts.scss/Pacifico.b3c8a48.ttf" afterPath="$PROJECT_DIR$/src/fonts/Pacifico.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts.scss/fontawesome-webfont.674f50d.eot" afterPath="$PROJECT_DIR$/src/fonts/fa/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts.scss/fontawesome-webfont.af7ae50.woff2" afterPath="$PROJECT_DIR$/src/fonts/fa/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts.scss/fontawesome-webfont.b06871f.ttf" afterPath="$PROJECT_DIR$/src/fonts/fa/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts.scss/fontawesome-webfont.fee66e7.woff" afterPath="$PROJECT_DIR$/src/fonts/fa/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/fontawesome-webfont.912ec66.svg" afterPath="$PROJECT_DIR$/src/fonts/fa/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/pattern_black.338989a.svg" afterPath="$PROJECT_DIR$/src/assets/pattern_black.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/pattern_blue.c174beb.svg" afterPath="$PROJECT_DIR$/src/assets/pattern_blue.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/pattern_green.a755294.svg" afterPath="$PROJECT_DIR$/src/assets/pattern_green.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/pattern_orange.0958735.svg" afterPath="$PROJECT_DIR$/src/assets/pattern_orange.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/pattern_white.dc880a1.svg" afterPath="$PROJECT_DIR$/src/assets/pattern_white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-worker.js" afterPath="$PROJECT_DIR$/service-worker.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +105,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.fe54d31929d2ca9b60be.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/js/app.fe54d31929d2ca9b60be.js">
+      <file leaf-file-name="echo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/echo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="697">
+              <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,6 +135,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -70,7 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -85,7 +175,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,6 +244,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -188,30 +284,32 @@
       <option name="presentableId" value="Default" />
       <updated>1506983877253</updated>
       <workItem from="1506983878756" duration="3400000" />
+      <workItem from="1507030718075" duration="1067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3400000" />
+    <option name="totallyTimeSpent" value="4885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.145625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.145625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31331593" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -226,42 +324,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/app.b22aa8b433de54397f9c.js">
+    <entry file="file://$PROJECT_DIR$/static/js/app.b22aa8b433de54397f9c.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/app.5a465150ac01ab308f80.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/app.ac60fb4c61aa2a0047c7.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/app.3b4ccedf9fdacbc55287.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/app.fe54d31929d2ca9b60be.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/echo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="697">
+          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.5a465150ac01ab308f80.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4413">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.ac60fb4c61aa2a0047c7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.3b4ccedf9fdacbc55287.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/app.fe54d31929d2ca9b60be.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

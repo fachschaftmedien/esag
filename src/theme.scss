@@ -1,0 +1,625 @@
+$fa-font-path: 'fonts/fa';
+@import 'sass/fa/font-awesome';
+@import 'sass/colors';
+@import 'sass/buttons';
+@import 'sass/inputs';
+@import 'sass/modal';
+@import 'sass/navigation';
+@import 'sass/fonts';
+@import 'sass/backgrounds';
+@import 'sass/header';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: $white;
+  color: $black;
+  font-size: 1em;
+  font-family: 'Comforta', sans-serif;
+}
+
+a.source{
+  cursor: pointer;
+  color: $green;
+}
+
+strong.important{
+  color: $green;
+}
+
+main>section{
+  position: relative;
+  margin-top: 5vh;
+  height: 120vh;
+  width: 100%;
+}
+
+main>section>.content{
+  position: absolute;
+  z-index: 0;
+  width: 80%;
+  height: 90%;
+  margin: 3% 5%;
+  padding: 2% 5%;
+  font-size: 1.5em;
+  font-family: 'Comforta', sans-serif;
+  color: $dark_blue;
+  background-color: $white_transparent;
+}
+
+main>section>.content>.content-headline{
+  width: 100%;
+  text-align: center;
+  color: $dark_blue;
+  margin: 1% 0;
+  font-size: 1.1em;
+}
+
+main>section>.background{
+  position: absolute;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.white{
+  color: $white;
+}
+
+
+.intro{
+  top: -5em;
+  height: 80vh;
+  padding-top: 1em;
+  text-align: center;
+  color: white;
+  z-index: 0;
+
+  .background{
+    top: -5%;
+    background-color: $light_blue;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 79%, 88% 88%, 68% 78%, 52% 84%, 27% 80%, 14% 88%, 0 82%);
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 88% 88%, 68% 78%, 52% 84%, 27% 80%, 14% 88%, 0 82%);
+  }
+
+  .content{
+    background-color: transparent;
+  }
+}
+
+
+.menues{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-flow: row;
+
+  .menu{
+    min-width: 10em;
+    padding: 0 1em;
+    background-color: $light_blue;
+    color: $white;
+
+    .menu-description{
+      font-size: 0.8em;
+    }
+  }
+}
+
+
+
+.menu>.container{
+  margin: 1em 0;
+  width: 4em;
+  height: 4em;
+  display: inline-block;
+  background: transparent;
+  border-radius: 2em;
+
+  div{
+    background-color: $white;
+    mix-blend-mode: screen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 2.5em;
+
+    span.fa{
+      color: black;
+      font-size: 2.5em;
+    }
+  }
+}
+
+.container:hover{
+  box-shadow: 0 0 2em 0.5em $white;
+  background-color: $white;
+
+  div{
+    background-color: $main_blue;
+    mix-blend-mode: normal;
+
+    span.fa{
+      color: $white;
+    }
+  }
+}
+
+.esag{
+
+  .content{
+
+    h2{
+      height: 10%;
+      display: block;
+      font-weight: bolder;
+      text-align: center;
+    }
+
+    .flip-container{
+      height: 90%;
+    }
+
+  }
+
+  button{
+    position: relative;
+    top: -20vh;
+    padding: 1em;
+    background-color: $main_blue;
+    color: $white;
+    border-radius: 0;
+    outline: none;
+    width: 10em;
+  }
+
+  .background{
+    background-image: $background_white;
+    -webkit-clip-path: polygon(7% 62%, 31% 75%, 58% 67%, 66% 51%, 52% 40%, 50% 21%, 30% 10%, 13% 16%, 5% 26%);
+    clip-path: polygon(7% 62%, 31% 75%, 58% 67%, 66% 51%, 52% 40%, 50% 21%, 30% 10%, 13% 16%, 5% 26%);
+  }
+}
+
+.zeitplan{
+
+  min-height: 150vh;
+
+  .background{
+    -webkit-clip-path: polygon(30% 28%, 47% 31%, 69% 17%, 100% 29%, 100% 48%, 73% 66%, 42% 53%, 0 65%, 0 14%, 20% 10%);
+    clip-path: polygon(30% 28%, 47% 31%, 69% 17%, 100% 29%, 100% 48%, 73% 66%, 42% 53%, 0 65%, 0 14%, 20% 10%);
+    background-image: $background_green;
+  }
+
+  p.esag-days{
+    width: 100%;
+    height: 2em;
+    margin: 1em 0;
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+  }
+
+  article{
+    width: 100%;
+
+    h2{
+      width: 100%;
+      text-align: center;
+      margin: 1em 0;
+      font-family: 'Comfortaa', sans-serif;
+      text-decoration: underline;
+    }
+  }
+
+
+
+  .calendar-container, h2, article{
+    color: $dark_green;
+  }
+
+  .calendar, .calendar-detail{
+    height: 75vh;
+    background-color: $white;
+    box-shadow: 0 0 1em rgba(20,20,40,0.2);
+  }
+
+  .calendar{
+    width: 75%;
+    padding: 1em;
+  }
+
+  .calendar-detail{
+    width: 20%;
+    height: calc(75vh + 2em);
+    font-family: 'Montserrat', sans-serif;
+
+    h2.detail-headline{
+      font-size: 1em;
+      font-family: 'Pacifico', sans-serif, sans-serif;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+      color: $white;
+      background-color: $orange;
+      text-align: center;
+    }
+
+    h2.detail-headline:first-letter, h2.detail-headline::first-letter{
+      font-size: 1.5em;
+    }
+
+    .description{
+      margin: 2%;
+      width: 96%;
+    }
+  }
+
+
+  .hour-row:nth-child(2n){
+    background-color: rgba(20,20,40,0.02);
+  }
+
+  .table-head{
+    border-bottom: solid rgba(20,20,40,0.2) thin;
+  }
+
+  .hour-label{
+    border-right: solid rgba(20,20,40,0.2) thin;
+  }
+
+  .weekday>.table-body-item{
+    background-color: $light_blue;
+    outline: solid $white 1px;
+    color: white;
+  }
+
+  .weekday>.table-body-item:nth-child(2n){
+    background-color: $light_blue_darkened;
+  }
+
+  .weekday>.table-body-item:hover{
+    background-color: $main_blue;
+    outline: solid $white 1px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .weekday>.table-body-item.active{
+    background-color: $orange;
+  }
+
+  .table-body-item{
+    font-size: 0.7em;
+  }
+
+  .calendar-detail .description{
+    font-size: 0.8em;
+  }
+
+  .calender-no-detail{
+    text-align: center;
+    font-size: 1em;
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+
+    .calendar-detail-info{
+      font-size: 4em;
+      margin-bottom: 1em;
+    }
+  }
+
+  .calendar-downloads{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1em;
+
+    a{
+      color: $green;
+      margin-right: 2em;
+    }
+  }
+
+}
+
+
+.social{
+
+  article{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2em;
+
+    h2{
+      font-size: 2em;
+      display: block;
+      text-align: center;
+      padding: 1em 0;
+    }
+  }
+
+  .social-icons{
+    width: 100%;
+    min-height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2em;
+
+    @media (max-width: 900px){
+      .social-icons{
+        margin-top: 0;
+      }
+    }
+
+    div{
+      width: 5vw;
+      height: 7vw;
+      font-size: 2em;
+
+      a{
+        color: $main_blue;
+        text-decoration: none;
+        cursor: pointer;
+
+        span{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 5vw;
+          height: 5vw;
+          border-radius: 2.5vw;
+          border: solid $main_blue thin;
+        }
+
+        div{
+          padding-top: 1em;
+          width: 7vw;
+          height: 2vw;
+          font-size: 0.5em;
+        }
+      }
+
+    }
+  }
+}
+
+.gallery{
+
+  .background{
+    background-image: $background_orange;
+    -webkit-clip-path: polygon(74% 8%, 89% 11%, 100% 23%, 100% 79%, 80% 70%, 54% 71%, 33% 50%, 43% 33%, 61% 29%);
+    clip-path: polygon(74% 8%, 89% 11%, 100% 23%, 100% 79%, 80% 70%, 54% 71%, 33% 50%, 43% 33%, 61% 29%);
+  }
+
+  h2{
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+.impressum{
+  height: 50vh;
+
+  .background{
+    bottom: -10em;
+    -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 5%, 85% 18%, 68% 5%, 51% 15%, 31% 6%, 9% 12%, 0 2%);
+    clip-path: polygon(0 100%, 100% 100%, 100% 5%, 85% 18%, 68% 5%, 51% 15%, 31% 6%, 9% 12%, 0 2%);
+    background-image: $background_black;
+    background-size: cover;
+  }
+
+
+  h2{
+    margin: 1em 0;
+  }
+
+  address{
+    font-size: 0.8em;
+    margin: 1em 0;
+  }
+}
+
+
+@media (max-width: 1000px){
+  main>.intro>.menues{
+    font-size: 0.8em;
+  }
+
+  main>.esag{
+    font-size: 0.8em;
+    margin-top: -20em;
+    min-height: 50em;
+  }
+
+  main>.zeitplan{
+    height: 200vh;
+
+    p.esag-days{
+      font-size: 0.8em;
+    }
+
+    .hours.table-column, .table-head .table-head-item:first-child{
+      width: 50%;
+    }
+
+    .calendar-container>div.calendar{
+      width: 98%;
+    }
+
+    .calendar-downloads{
+      flex-direction: column;
+
+      a{
+        margin: 0.5em 0;
+      }
+    }
+  }
+
+  main>.social .social-icons{
+    margin-top: 2em;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  main>.social .social-icons>div{
+    width: 90%;
+    height: 100%;
+
+    a{
+      display: flex;
+      width: 100%;
+      height: 100%;
+      flex-direction: row;
+      margin-top: 1em;
+
+
+      span{
+        width: 1.2em;
+        height: 1.2em;
+        border-radius: 0.6em;
+      }
+
+      div{
+        margin-left: 1em;
+        display: inline-block;
+        width: 70%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 900px){
+
+  main>section>.content{
+    width: 96%;
+    height: 96%;
+    margin: 0;
+    padding: 2%;
+  }
+
+  main>.intro{
+    margin-top: 2em;
+    height: 80vh;
+  }
+
+  main>.esag{
+    margin-top: -10em;
+  }
+
+  main>.esag button{
+    top: 0;
+  }
+
+  main>.esag .front-text, main>.esag .back-text{
+    font-size: 0.85em;
+  }
+
+  main>.intro>.menues{
+    height: 55vh;
+    flex-flow: column;
+    padding: 0;
+  }
+
+  main>.intro>.menues>.menu{
+    width: 100%;
+    padding: 0;
+  }
+
+  main>.social{
+    display: flex;
+    flex-direction: column;
+  }
+
+  main>.social>.social-icons{
+    margin-top: 1em;
+  }
+
+  main>.social .social-info-text{
+    font-size: 0.9em;
+    line-height: 1.2em;
+  }
+
+}
+
+
+@media (max-width: 400px){
+
+  main>section>.background{
+    background: transparent none !important;
+  }
+
+  main>.intro>.background{
+    background-color: $light_blue !important;
+  }
+
+  .page-header .headline-container .page-title{
+    font-size: 1.3em;
+  }
+
+  .page-header .headline-container .page-subheadline{
+    text-align: center;
+    font-size: 0.5em;
+    letter-spacing: 0.2em;
+  }
+
+  .esag article{
+    padding: 1em 0.5em;
+    margin: -1em 1em 2em 1em;
+    font-size: 1em;
+  }
+
+  .social>.content .social-icons>div{
+    font-size: 1em;
+  }
+
+  main>section.social{
+    height: 140vh;
+  }
+
+  main>section.zeitplan{
+    height: 240vh;
+  }
+
+}
+
+
+@media screen and (orientation:landscape) and (max-width: 700px) {
+  .intro{
+    .menues{
+      flex-flow: row !important;
+
+      .menu{
+        padding-top: 5em !important;
+        width: 30% !important;
+      }
+    }
+  }
+
+  .esag{
+    top: 5em !important;
+    margin-bottom: 5em !important;
+  }
+
+  .zeitplan{
+    height: 250vh !important;
+  }
+
+  .social{
+    height: 200vh !important;
+  }
+}

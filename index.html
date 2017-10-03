@@ -1,4 +1,64 @@
-<!DOCTYPE html><html lang=de><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>esag</title><link rel=icon type=image/png sizes=32x32 href=/esag/static/img/icons/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/esag/static/img/icons/favicon-16x16.png><!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]--><link rel=manifest href=/esag/static/manifest.json><meta name=theme-color content=#79bee3><meta name=apple-mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=blue><meta name=apple-mobile-web-app-title content="{{ name }}"><link rel=apple-touch-icon href=/esag/static/img/icons/apple-touch-icon-152x152.png><meta name=msapplication-TileImage content=/esag/static/img/icons/msapplication-icon-144x144.png><meta name=msapplication-TileColor content=#88CCF1><link rel=preload href=/esag/static/js/vendor.c9fe410b5a7a102d11bf.js as=script><link rel=preload href=/esag/static/js/app.fe54d31929d2ca9b60be.js as=script><link rel=preload href=/esag/static/css/app.57fb90fb8b5d3c92bd66d1b9f7ec14f9.css as=style><link rel=preload href=/esag/static/js/manifest.ad39595c423b8899a4f2.js as=script><base href=/esag/ ><link href=/esag/static/css/app.57fb90fb8b5d3c92bd66d1b9f7ec14f9.css rel=stylesheet></head><body><noscript><div style="padding: 2em"><h1>Ersti-Woche 2017 Fachbereich Medien</h1><strong class=important>Dies ist die apgespeckte Nicht-Javascript-Version der Seite!</strong><br><br><p style="display: block">Die Erstsemester-Woche bietet den neu im FB Medien anfangenden Studenten einen Einblick in den Studienablauf. Es werden Projekte vorgestellt, die einzelnen Portale, Tipps für den Studienalltag, etc. In kurz: Es wird erklärt, wie man studiert. Hier ist unser Ablaufplan</p><img src=/esag/static/img/noscript/plan.png alt="Zeitplan der Ersti-Woche"><div>Soziale Netzwerke:<br><a href=https://www.facebook.com/fachschaftmedien.de>Facebook</a> <a href=https://chat.whatsapp.com/invite/AOiEg6uIcWY8EU1tNOK6rI>Whatsapp-Ersti-Gruppe</a> <a href=https://twitter.com/diefachschaft>Twitter</a></div><div>Fachschaftsrat Medien<br>Hochschule Düsseldorf<br>Münsterstraße 156<br>Gebäude 4 (2. Etage), Raum 04.2.029<br>40476 Düsseldorf<br><br>Raum: 04.2.029<br>Tel.: +49 (211) 4351-2512<br>Mail: info@fachschaftmedien.de<br></div></div><style>body noscript{
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>esag</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-16x16.png">
+    <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
+    <!-- Add to home screen for Android and modern mobile browsers -->
+    <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>static/manifest.json">
+    <meta name="theme-color" content="#79bee3">
+
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="blue">
+    <meta name="apple-mobile-web-app-title" content="{{ name }}">
+    <link rel="apple-touch-icon" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/apple-touch-icon-152x152.png">
+    <!-- Add to home screen for Windows -->
+    <meta name="msapplication-TileImage" content="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#88CCF1">
+    <% for (var chunk of webpack.chunks) {
+    for (var file of chunk.files) {
+    if (file.match(/\.(js|css)$/)) { %>
+    <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>"><% }}} %>
+    <base href="<%= htmlWebpackPlugin.files.publicPath %>">
+  </head>
+  <body>
+    <noscript>
+      <div style="padding: 2em;">
+        <h1>Ersti-Woche 2017 Fachbereich Medien</h1>
+        <strong class="important">Dies ist die apgespeckte Nicht-Javascript-Version der Seite!</strong><br>
+        <br>
+        <p style="display: block">
+        Die Erstsemester-Woche bietet den neu im FB Medien anfangenden Studenten einen Einblick in den Studienablauf.
+        Es werden Projekte vorgestellt, die einzelnen Portale, Tipps für den Studienalltag, etc.
+        In kurz: Es wird erklärt, wie man studiert.
+        Hier ist unser Ablaufplan
+        </p>
+        <img src="<%= htmlWebpackPlugin.files.publicPath %>static/img/noscript/plan.png" alt="Zeitplan der Ersti-Woche">
+        <div>
+          Soziale Netzwerke: <br>
+          <a href="https://www.facebook.com/fachschaftmedien.de">Facebook</a>
+          <a href="https://chat.whatsapp.com/invite/AOiEg6uIcWY8EU1tNOK6rI">Whatsapp-Ersti-Gruppe</a>
+          <a href="https://twitter.com/diefachschaft">Twitter</a>
+        </div>
+        <div>
+          Fachschaftsrat Medien <br>
+          Hochschule Düsseldorf <br>
+          Münsterstraße 156 <br>
+          Gebäude 4 (2. Etage), Raum 04.2.029 <br>
+          40476 Düsseldorf <br>
+          <br>
+          Raum: 04.2.029 <br>
+          Tel.: +49 (211) 4351-2512 <br>
+          Mail: info@fachschaftmedien.de <br>
+        </div>
+      </div>
+      <style>
+        body noscript{
           width: 90vw;
           height: 90vh;
           margin: 5vh 5vw;
@@ -10,7 +70,12 @@
 
         #app .waiting{
           display: none;
-        }</style></noscript><div id=app><style>.loader,
+        }
+      </style>
+    </noscript>
+    <div id="app">
+      <style>
+        .loader,
         .loader:after {
           border-radius: 50%;
           width: 10em;
@@ -50,4 +115,13 @@
             -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
           }
-        }</style><div class=waiting style="position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; display: flex; flex-flow: column; align-items: center; justify-content: center; background-color: #79bee3"><div style="color: white; font-size: 3em; font-family: Arial, Helvetica, sans-seriv; text-align: center">loading...</div><div class=loader></div></div></div><script>!function(){"use strict";const o=Boolean("localhost"===window.location.hostname||"[::1]"===window.location.hostname||window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));window.addEventListener("load",function(){"serviceWorker"in navigator&&("https:"===window.location.protocol||o)&&navigator.serviceWorker.register("service-worker.js").then(function(o){o.onupdatefound=function(){if(navigator.serviceWorker.controller){const e=o.installing;e.onstatechange=function(){switch(e.state){case"installed":console.log("registered service worker - page can now be used offline");break;case"redundant":throw new Error("The installing service worker became redundant.")}}}}}).catch(function(o){console.error("Error during service worker registration:",o)})})}();</script><script type=text/javascript src=/esag/static/js/manifest.ad39595c423b8899a4f2.js></script><script type=text/javascript src=/esag/static/js/vendor.c9fe410b5a7a102d11bf.js></script><script type=text/javascript src=/esag/static/js/app.fe54d31929d2ca9b60be.js></script></body></html>
+        }
+      </style>
+      <div class="waiting" style="position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; display: flex; flex-flow: column; align-items: center; justify-content: center; background-color: #79bee3">
+        <div style="color: white; font-size: 3em; font-family: Arial, Helvetica, sans-seriv; text-align: center;"> loading...</div>
+        <div class="loader"></div>
+      </div>
+    </div>
+    <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
+  </body>
+</html>

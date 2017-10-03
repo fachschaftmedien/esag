@@ -1,0 +1,25 @@
+@import './colors';
+@import './fonts';
+
+.modal-container{
+  background-color: $white;
+  color: $dark_blue;
+  padding: 3em 1em;
+
+  .modal-header{
+    text-transform: uppercase;
+    border-bottom: solid $dark_blue thin;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+  }
+
+  .modal-body{
+    margin: 1em 0 2em 0;
+  }
+}
+
+.modal-container button{
+  background-color: $main_blue;
+  color: $white;
+  padding: 0.5em 1.5em;
+}

@@ -1,0 +1,343 @@
+[
+  {
+    "command": "Weiter",
+    "description": "geht ein Thema weiter",
+    "tags": [
+      "navigation"
+    ]
+  },
+  {
+    "command": "Zurück",
+    "description": "geht ein Thema zurück",
+    "tags": [
+      "navigation"
+    ]
+  },
+  {
+    "command": "Gehe nach oben | Gehe zum Start | Gehe zum Anfang",
+    "description": "geht wieder an den Start der Seite",
+    "tags": [
+      "navigation"
+    ]
+  },
+  {
+    "command": "Gehe nach unten | Gehe zum Ende",
+    "description": "geht auf der Seite nach ganz unten",
+    "tags": [
+      "navigation"
+    ]
+  },
+  {
+    "command": "Gehe zu (Thema) ...",
+    "description": "geht auf der Seite zum Abschnitt mit dem entsprechenden Namen",
+    "tags": [
+      "navigation"
+    ]
+  },
+  {
+    "command": "Wie viel Uhr ist es?",
+    "description": "nennt die aktuelle Uhrzeit",
+    "tags": [
+      "uhr",
+      "zeit"
+    ]
+  },
+  {
+    "command": "Erzähl mir einen Witz",
+    "description": "erzählt einen (Warnung: ggf. auch sehr bösen) Witz",
+    "tags": [
+      "witz",
+      "scherz",
+      "unsinn",
+      "spaß"
+    ]
+  },
+  {
+    "command": "Suche nach ...",
+    "description": "öffnet Google in einem neuen Fenster mit den Suchergebnissen (Warnung: Pop-Up-Blocker)",
+    "tags": [
+      "google",
+      "suchen"
+    ]
+  },
+  {
+    "command": "Sage ...",
+    "description": "wiederholt das verstandene",
+    "tags": [
+      "echo",
+      "simon says"
+    ]
+  },
+  {
+    "command": "Buchstabiere ...",
+    "description": "buchstabiert ein Wort",
+    "tags": [
+      "rechtschreibung",
+      "buchstaben",
+      "spelling",
+      "wörterbuch",
+      "duden"
+    ]
+  },
+  {
+    "command": "Berechne ...",
+    "description": "berechnet einen mathematischen Therm wie '2 plus 3 durch 5' oder 'Ableitung von drei x-quadrat + 2x - 6'",
+    "tags": [
+      "mathe",
+      "rechnen",
+      "ableitung",
+      "zahlen"
+    ]
+  },
+  {
+    "command": "Wann ist ... | wann findet ... statt",
+    "description": "sagt, wann die Ersti-Wochen Veranstaltung(en) mit dem entsprechenden Namen stattfinden sollen",
+    "tags": [
+      "uhr",
+      "zeit",
+      "kalender",
+      "planung"
+    ]
+  },
+  {
+    "command": "Was ist der Sinn des Lebens",
+    "description": "nennt den Sinn des Lebens",
+    "tags": [
+      "anhalter",
+      "galaxis",
+      "hitchhiker",
+      "philosophie"
+    ]
+  },
+  {
+    "command": "Überrasche mich",
+    "description": "(soll ja eine Überraschung bleiben...)",
+    "tags": [
+      "überraschung",
+      "suprise",
+      "unerwartet"
+    ]
+  },
+  {
+    "command": "Wie alt bist du",
+    "description": "keine Sehr sinnvolle Frage an eine Website",
+    "tags": [
+      "sinnlos",
+      "alter"
+    ]
+  },
+  {
+    "command": "Wie heißt du",
+    "description": "nennt den Namen der Seite",
+    "tags": [
+      "name"
+    ]
+  },
+  {
+    "command": "Übersetze ... in ...",
+    "description": "öffnet den Google-Übersetzer mit der entsprechenden übersetzung (Warnung: Pop-Up-Blocker)",
+    "tags": [
+      "übersetzer",
+      "wörterbuch"
+    ]
+  },
+  {
+    "command": "Zeige mir Katzen",
+    "description": "tut genau das (Warnung: Pop-Up-Blocker)",
+    "tags": [
+      "kitties"
+    ]
+  },
+  {
+    "command": "Kopf oder Zahl",
+    "description": "wirft eine Münze für dich",
+    "tags": [
+      "münzwurf",
+      "zufall"
+    ]
+  },
+  {
+    "command": "Stein Schere Papier | Schnick Schnack Schnuck",
+    "description": "spielt Stein Schere Papier mit dir",
+    "tags": [
+      "spiel",
+      "zufall"
+    ]
+  },
+  {
+    "command": "Nenne eine Zahl zwischen ... und ...",
+    "description": "nennt eine zufällige Zahl aus dem gegebenen Bereich, Start- und Endzahl inklusive",
+    "tags": [
+      "zufall",
+      "zahlen"
+    ]
+  },
+  {
+    "command": "Setze/starte/stelle (einen) Timer auf/für ... Minute(n) | ",
+    "description": "stellt eine Stoppuhr, die informiert, wann die Zeit abgelaufen ist",
+    "tags": [
+      "zeit",
+      "uhr"
+    ]
+  },
+  {
+    "command": "Rezepte für ...",
+    "description": "sucht nach Rezepten für das genannte Gericht (Warnung: Pop-Up-Blocker)",
+    "tags": [
+      "essen"
+    ]
+  },
+  {
+    "command": "Was ist die Definition von ...",
+    "description": "sucht online nach der Definition für den genannten Begriff (Warnung: Pop-Up-Blocker)",
+    "tags": [
+      "begriff",
+      "wörterbuch"
+    ]
+  },
+  {
+    "command": "Was bedeutet ESAG?",
+    "description": "erklärt, was die ESAG ist...",
+    "tags": [
+      "information",
+      "ersti"
+    ]
+  },
+  {
+    "command": "Was ist die Fachschaft?",
+    "description": "erklärt, was die Fachschaft ist und macht...",
+    "tags": [
+      "information",
+      "ersti",
+      "politik",
+      "hochschule",
+      "gremium"
+    ]
+  },
+  {
+    "command": "wie viel kostet (das) Bier | was kostet (das) Bier ?",
+    "description": "nennt den Bierpreis",
+    "tags": [
+      "alkohol",
+      "bier",
+      "geld",
+      "preis"
+    ]
+  },
+  {
+    "command": "Was ist die Ersti-Woche?",
+    "description": "gibt eine kurze Erklärung, was die Ersti-Woche überhaupt ist",
+    "tags": [
+      "ersti",
+      "hochschule"
+    ]
+  },
+  {
+    "command": "Was hilft gegen (einen) Kater?",
+    "description": "hilft, falls es am Vortag zu viel zu trinken gab",
+    "tags": [
+      "alkohol",
+      "bier"
+    ]
+  },
+  {
+    "command": "Was ist der Fachschaftsrat?",
+    "description": "beschreibt, was der FSR ist",
+    "tags": [
+      "politik",
+      "gremium",
+      "hochschule"
+    ]
+  },
+  {
+    "command": "Wo finde ich Informationen?",
+    "description": "nennt, wo Informationen gefunden werden können",
+    "tags": [
+      "information"
+    ]
+  },
+  {
+    "command": "Wo findet ... statt | Wo ist (der/die/das) ... (Vorstellung)",
+    "description": "nennt, wo eine Veranstaltung der Ersti-Woche stattfindet",
+    "tags": [
+      "planung",
+      "ort"
+    ]
+  },
+  {
+    "command": "Wie geht es dir?",
+    "description": "auch immer wieder eine nette Frage...",
+    "tags": [
+      "gefühl",
+      "stimmung"
+    ]
+  },
+  {
+    "command": "Route nach ...",
+    "description": "öffnet Google Maps mit der entsprechenden Adresse",
+    "tags": [
+      "ort",
+      "navigation",
+      "reise"
+    ]
+  },
+  {
+    "command": "Erzähl mir eine Geschichte!",
+    "description": "gibt eine Märchenstunde",
+    "tags": [
+      "märchen",
+      "story"
+    ]
+  },
+  {
+    "command": "Was machst du (so)",
+    "description": "nennt, was die Anwendung zur Zeit macht",
+    "tags": [
+      "tust",
+      "smalltalk"
+    ]
+  },
+  {
+    "command": "Magische Miesmuschel, ...",
+    "description": "spielt magische Miesmuschel",
+    "tags": [
+      "zufall",
+      "spongebob"
+    ]
+  },
+  {
+    "command": "Sing mir ein Lied",
+    "description": "singt etwas, im Rahmen der Möglichkeiten",
+    "tags": [
+      "singen",
+      "musik"
+    ]
+  },
+  {
+    "command": "Ich habe Geburtstag!",
+    "description": "gratuliert",
+    "tags": [
+      "happy birthday"
+    ]
+  },
+  {
+    "command": "Was kostet (das/ein) Würstchen/Bratwurst/Bier/Alkohol",
+    "description": "nennt den Preis des entsprechenden Gutes",
+    "tags": [
+      "preis",
+      "alkohol",
+      "grillen",
+      "verkauf",
+      "ersti"
+    ]
+  },
+  {
+    "command": "Was gibt es zu(m) Grillen?",
+    "description": "listet auf, was wir grillen",
+    "tags": [
+      "grillen",
+      "verkauf",
+      "ersti"
+    ]
+  }
+]

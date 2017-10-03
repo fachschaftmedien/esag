@@ -1,0 +1,173 @@
+{"Mittwoch":
+  [
+    {
+      "start":"09:00",
+      "end":"10: 00",
+      "title":"Gottesdienst",
+      "location":"Mitsubishi-Electric-Halle",
+      "description":"optional"
+    },
+    {
+      "start":"10: 00",
+      "end":"11:00",
+      "title":"Begrüßung",
+      "location":"Mitsubishi-Electric-Halle",
+      "description":"Die Präsidenting der Hochschule und weitere begrüßen alle Studenten der HSD"
+    },
+    {
+      "start":"11: 00",
+      "end":"13: 00",
+      "title":"Anreise",
+      "location":"Mitsubishi-Electric-Halle",
+      "description":"Wir holen euch von der Halle ab und fahren mit euch zum Campus (Düsseldorf Derendorf, Münsterstraße 156), wo es dann weiter geht"
+    },
+    {
+      "start":"13: 00",
+      "end":"14: 00",
+      "title":"Rundgang",
+      "location":"Campus Derendorf, Gebäude 4",
+      "description":"Eine Fürhung durch das Gebäude 4 mit kurzer Vorstellung der einzelnen Räume und Labore"
+    },
+    {
+      "start":"14: 00",
+      "end":"16: 00",
+      "title":"Prof. Studiengangsvorstellung",
+      "location":"04.1.006 / 04.1.007",
+      "description":"Die Professoren unserer Studiengänge stellen euch vor, wie euer Studienalltag aussieht (aus ihrer Sicht)"
+    },
+    {
+      "start":"16: 00",
+      "end":"18: 00",
+      "title":"Grillen",
+      "location":"Vor dem Gebäude 4",
+      "description":"Zum Abschluss des Tages Grillen wir und trinken noch etwas"
+    }
+  ],
+  "Donnerstag":
+  [
+    {
+      "start":"10: 00",
+      "end":"12: 00",
+      "title":"Begrüßung Dekan",
+      "location":"Gebäude 4, Audimax",
+      "description":"Begrüßung durch den Dekan (im Prinzip dem Vorsitzenden) des Fachbereich Medien, Ulrich Klinkenberg"
+    },
+    {
+      "start":"12: 00",
+      "end":"13: 00",
+      "title":"Pause",
+      "location":"wo ihr wollt",
+      "description":"Nach längerer Ansprache eine Mittagspause zur Erholung. Ihr könnt euch entspannen oder in der Mensa essen (was auch den Vorteil hat am Abend nicht auf nüchternen Magen zu trinken)"
+    },
+    {
+      "start":"13:00",
+      "end":"14:00",
+      "title":"Campus-IT",
+      "location":"04.1.006 / 04.1.007",
+      "description":"Vorstellung der Institution, die für die Verwaltung der WLAN-Zugänge, Studierendenmail, etc. zuständig ist (und wahrscheinlich Vorstellung der letztgenannten inklusive)"
+    },
+    {
+      "start":"14:00",
+      "end":"15:00",
+      "title":"Portale",
+      "location":"04.1.006 / 04.1.007",
+      "description":"The Cake is a lie. Die Portale unseres Studienganges sind Fronter, MeinFBM, Moodle und weitere. Wir erklären euch die Zugänge, Seiten, etc. und wozu sie gut sind"
+    },
+    {
+      "start":"15:00",
+      "end":"22:00",
+      "title":"Nettwerken",
+      "location":"Gebäude 4, 1.Etage",
+      "description":"Spielen, Trinken, etc. Wahrscheinlich Jenga, Looping Louie, Who Am I"
+    },
+    {
+      "start":"15:00",
+      "end":"17:00",
+      "title":"Prof-Stud",
+      "location":"04.1.007",
+      "description":"Prof-Stud - oder ausgeschrieben 'Professionell Studieren'. Christopher Antes erzählt über erfolgreiches Studieren, gibt Lerntipps, etc."
+    }
+  ],
+  "Freitag":
+  [
+    {
+      "start":"10:00",
+      "end":"13:00",
+      "title":"Frühstück",
+      "location":"Gebäude 4, 1.Etage",
+      "description":"Gemeinsames Frühstück. Am Tag vorher geben wir jeden von euch ein Los, was ihr für den nächsten Tag mitbringen solltet. Brötchen, Kaffee und Bier werden von uns gestellt, Besteck haben wir auch, aber ihr solltet lieber euer eigenes mitbringen, denn wir haben nicht genug..."
+    },
+    {
+      "start":"13:00",
+      "end":"14:00",
+      "title":"ZWEK",
+      "location":"04.1.006",
+      "description":"Das Zentrum für Weiterbildung und Kompetenzenentwickelung stellt Sprachkurse, etc. vor. Warum es nicht ZWKE heißt? Keine Ahnung, fragt mal."
+    },
+    {
+      "start":"14:00",
+      "end":"15:00",
+      "title":"Bibliothek",
+      "location":"Gebäude 4, Audimax",
+      "description":"Vorstellung des Ausleihsystems und der Dienste der Hochschulbibliothek und Bibliotheksausweise für die, die noch keinen haben"
+    },
+    {
+      "start":"15:00",
+      "end":"16:00",
+      "title":"Studentenprojekte",
+      "location":"04.1.006 / 04.1.007",
+      "description":"Studenten erzeugen in ihren Projekten Ergebnisse, die hier Vorgestellt werden. Selbstgebaute Boxen, lustige oder spannende Software oder Webservices, etc"
+    },
+    {
+      "start":"16:00",
+      "end":"19:00",
+      "title":"Stud. Studiengangsvorstellung",
+      "location":"04.1.006 / 04.1.007",
+      "description":"Studenten stellen den Studiengang aus ihrer Sicht vor. Dies ist quasi das Gegenstück zur Professorischen Studiengangsvorstellung"
+    },
+    {
+      "start":"19:00",
+      "end":"20:00",
+      "title":"Pause",
+      "location":"wo ihr wollt",
+      "description":"Jetzt habt ihr schon einiges gehört, vielleicht habt ihr Lust euch eine Pizza zu bestellen? Ansonsten geht es gleich mit Nettwerken weiter."
+    },
+    {
+      "start":"20:00",
+      "end":"25:00",
+      "title":"Nettwerken",
+      "location":"Gebäude 4, 1.Etage",
+      "description":"Spielen, Trinken, etc. Gespielt wird vermutlich Jenga, Looping Louie und vieles mehr. Ihr kennt es bereits"
+    }
+  ],
+  "Samstag":
+  [ {
+      "start":"11:00",
+      "end":"12:00",
+      "title":"Fragerunde",
+      "location":"04.1.006 / 04.1.007",
+      "description":"Ihr habt noch Fragen? Dann könnt ihr sie jetzt stellen. Yay und Jonas trinken bei jeder Frage, von daher fragt viel!"
+    },
+    {
+      "start":"12:00",
+      "end":"15:00",
+      "title":"Grillen",
+      "location":"Vor dem Gebäude 4",
+      "description":"Grillen! Was muss man mehr sagen. Es gibt Würstchen, vllt. auch Steaks und immer Bier"
+    },
+    {
+      "start":"15:00",
+      "end":"16:00",
+      "title":"Pause",
+      "location":"wo ihr wollt",
+      "description":"wir lassen das Grillen ausklingen, brauchen hier aber nen kleinen Zeitpuffer um die nächsten Termine vorzubereiten"
+    },
+    {
+      "start":"16:00",
+      "end":"25:00",
+      "title":"Altstadttour",
+      "location":"Start vor Gebäude 4",
+      "description":"Was wäre ein Studium in Düsseldorf nicht ohne wenigstens grundlegende Kenntnisse der Altstadt... Wir zeigen euch die besten Kneipen und beenden die ESAG feiernd"
+    }
+  ]
+}

@@ -302,5 +302,11 @@ export default {
   },
   'Allahu Akbar': function(){
     window.open('https://www.youtube.com/watch?v=W8FhA_uxHUg','_blank');
+  },
+  'hallo (Seite)': function(){
+    speak('Hi!');
+  },
+  'hi': function(){
+    speak('Hallo');
   }
 };

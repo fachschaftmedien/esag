@@ -5,7 +5,7 @@
   margin-bottom: 45px;
 }
 
-input {
+input[type="text"] {
   display: block;
   border: none;
   border-bottom: 1px solid transparent;
@@ -13,7 +13,7 @@ input {
   border-bottom: solid $shadow 1px;
 }
 
-input:focus {
+input[type="text"]:focus {
   outline: none;
 }
 
@@ -30,7 +30,7 @@ label {
   -webkit-transition: 0.2s ease all;
 }
 
-input:focus ~ label, input:valid ~ label {
+input[type="text"]:focus ~ label, input:valid ~ label {
   top: -1.2em;
   font-size: 0.8em;
   color: $main_blue;
@@ -63,7 +63,7 @@ input:focus ~ label, input:valid ~ label {
 }
 
 /* active state */
-input:focus ~ .bar:before, input:focus ~ .bar:after {
+input[type="text"]:focus ~ .bar:before, input[type="text"]:focus ~ .bar:after {
   width: 50%;
 }
 
@@ -77,7 +77,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
   opacity: 0.5;
 }
 
-input:focus ~ .highlight {
+input[type="text"]:focus ~ .highlight {
   -webkit-animation: inputHighlighter 0.3s ease;
   -moz-animation: inputHighlighter 0.3s ease;
   animation: inputHighlighter 0.3s ease;

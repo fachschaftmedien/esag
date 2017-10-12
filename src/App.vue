@@ -119,6 +119,13 @@
         </div>
         <div class="background"></div>
       </section>
+	  <section class="evaluation">
+		<div class="content">
+			<h2 data-title="Evaluation" class="content-headline">Evaluation</h2>
+			<evaluation></evaluation>
+		</div>
+		<div class="background"></div>
+	  </section>
       <section class="impressum">
         <div class="content">
           <h2 data-title="Impressum" class="content-headline">Impressum</h2>
@@ -149,6 +156,7 @@ import Calendar from '@/components/Calendar';
 import Gallery from '@/components/Gallery';
 import Flipper from '@/components/Flipper';
 import CommandList from '@/components/CommandList';
+import Evaluation from '@/components/Evaluation';
 import navigation from './js/navigation';
 import schedule from './js/calendar.json';
 import images from './js/images.json';
@@ -171,6 +179,7 @@ export default {
     Calendar,
     Gallery,
     Flipper,
+	Evaluation,
     CommandList
   },
   data(){

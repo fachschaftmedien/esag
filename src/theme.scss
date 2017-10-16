@@ -412,7 +412,7 @@ main>section>.background{
 }
 
 .evaluation{
-	height: 130vh;
+	height: 200vh;
 }
 
 .impressum{
@@ -502,6 +502,18 @@ main>section>.background{
         display: inline-block;
         width: 70%;
       }
+    }
+  }
+
+  main>.evaluation{
+    min-height: 300vh;
+
+    .form-row label, .form-row .selected-value{
+      font-size: 0.5em;
+    }
+
+    .radio-item{
+      margin: 0.5em;
     }
   }
 

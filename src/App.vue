@@ -43,7 +43,7 @@
       </section>
       <section class="esag">
         <div class="content">
-          <h2 data-title="Was ist die Erstiwoche" class="content-headline"> Was ist die Ersti-Woche? </h2>
+          <h2 data-title="Was ist die Erstiwoche" class="content-headline" id="esag"> Was ist die Ersti-Woche? </h2>
           <flipper :frontButtonText="'Kurzfassung bitte'" :backButtonText="'Text anzeigen'">
             <div class="front-text" slot="front">
               Jedes Jahr veranstalten die Fachschaften für neue Studenten eine Einführungswoche, damit euer Start an der HS Düsseldorf so angenehm wie möglich wird.
@@ -67,7 +67,7 @@
       </section>
       <section class="zeitplan">
         <div class="content">
-          <h2 data-title="Zeitplan" class="content-headline">Zeitplan</h2>
+          <h2 data-title="Zeitplan" class="content-headline" id="zeitplan">Zeitplan</h2>
           <p class="esag-days"> Vom 04. bis zum 09. Oktober 2017 am Campus Derendorf, Münsterstraße 156</p>
           <br>
           <calendar :schedule="calendar"></calendar>
@@ -81,7 +81,7 @@
       </section>
       <section class="social">
         <div class="content">
-          <h2 data-title="Social Media" class="content-headline">Social Media</h2>
+          <h2 data-title="Social Media" class="content-headline" id="social">Social Media</h2>
           <article>
             <p class="social-info-text">
               Wir als Fachschaft informieren euch über Veranstaltungen, Projekte, das Hochschulleben und Parties.
@@ -114,21 +114,21 @@
       </section>
       <section class="gallery">
         <div class="esag-images content">
-          <h2 data-title="Bilder" class="content-headline">Bilder von der letzten Ersti-Woche</h2>
+          <h2 data-title="Bilder" class="content-headline" id="bilder">Bilder von der letzten Ersti-Woche</h2>
           <gallery :images="images"></gallery>
         </div>
         <div class="background"></div>
       </section>
 	  <section class="evaluation">
 		<div class="content">
-			<h2 data-title="Evaluation" class="content-headline">Evaluation</h2>
+			<h2 data-title="Evaluation" class="content-headline" id="evaluation">Evaluation</h2>
 			<evaluation></evaluation>
 		</div>
 		<div class="background"></div>
 	  </section>
       <section class="impressum">
         <div class="content">
-          <h2 data-title="Impressum" class="content-headline">Impressum</h2>
+          <h2 data-title="Impressum" class="content-headline" id="impressum">Impressum</h2>
           <address>
             Fachschaftsrat Medien <br>
             Hochschule Düsseldorf <br>
@@ -227,7 +227,7 @@ export default {
       },
       handleReady(){
         this.navigation.init();
-        this.navigation.scrollValue(document.body.scrollTop);
+        window.location.hash ? this.navigation.scrollValue(document.body.scrollTop) : this.navigation.to(window.location.hash.replace('#'));
         this.menuItems = this.navigation.getEntries();
       },
       handleReset(){

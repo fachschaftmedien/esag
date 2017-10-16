@@ -15,6 +15,7 @@
 			<p class="error" v-if="submitted && !isValidCourse"> Bitte wähle deinen Studiengang aus </p>
 		</div>
 		<div class="form-row">
+      Wie fandet ihr die Ersti-Woche?
 			 <ul class="radio-group">
 				<li class="radio-item" v-for="(label, value) in satisfactions">
 					<div class="radio">

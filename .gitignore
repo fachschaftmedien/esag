@@ -6,4 +6,5 @@ ssl
 
 # Editor directories and files
 .idea
+.idea/*
 workspace.xml

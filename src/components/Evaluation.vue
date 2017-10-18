@@ -118,7 +118,7 @@ export default {
 		submit(){
 			this.submitted=true;
 			if(this.isCompletelyValid){
-        fetch("https://esag-evaluation-2017.herokuapp.com/evaluation", {
+        fetch("http://evaluation-evaluation.193b.starter-ca-central-1.openshiftapps.com/evaluation", {
           method: "post",
           headers: {
             'Accept': 'application/json',

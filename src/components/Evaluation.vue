@@ -138,8 +138,8 @@ export default {
             }else{
               this.showSuccess(message.text);
               // reset fields to make clear the form was sent
-              this.good = " ";
-              this.bad = " ";
+              this.good = "";
+              this.bad = "";
               this.satisfaction = 0;
               this.course = "";
               this.submitted = false;
